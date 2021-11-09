@@ -60,7 +60,7 @@
 ## Important Links
 * Link to Deployed Application on Heroku
 * Link to Github Repository
-* 
+* [Tech Blog ](https://github.com/AngelaLoftus/tech-blog)
 
 ## Contact Me
 * Name: Angela Loftus
