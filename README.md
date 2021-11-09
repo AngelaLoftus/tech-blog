@@ -60,3 +60,6 @@
 ## Link to Deployed Application
 
 ## Contact Me
+* Name: Angela Loftus
+* Github profile: https://github.com/AngelaLoftus
+* Email address: angelaloftus@yahoo.com
