@@ -62,6 +62,10 @@
 * Link to Github Repository
 * [Tech Blog Repository](https://github.com/AngelaLoftus/tech-blog)
 
+## Screenshots
+![image1!](link)
+![image2](link)
+
 ## Contact Me
 * Name: Angela Loftus
 * Github profile: https://github.com/AngelaLoftus
