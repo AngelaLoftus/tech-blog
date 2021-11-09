@@ -57,7 +57,10 @@
 - WHEN I am idle on the site for more than a set time
 - THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
-## Link to Deployed Application on Heroku
+## Important Links
+* Link to Deployed Application on Heroku
+* Link to Github Repository
+* 
 
 ## Contact Me
 * Name: Angela Loftus
