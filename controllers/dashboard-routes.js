@@ -1,8 +1,8 @@
 //LEFT OFF HERE 
-const router = require('exress').Router();
+const router = require('express').Router();
 const sequelize = require('../config/connection');
 const {Post, User, Comment} = require('../models');
-const withAuth = require('..utils/auth');
+const withAuth = require('../utils/auth');
 
 
 router.get('/', withAuth, (req,res) => {

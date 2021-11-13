@@ -3,6 +3,6 @@
  const Post = require('./Post');
  const Comment = require('./Comment');
 
- //create associations
+ //create associations, no many to many relationships needed
 
  module.exports = {User, Post, Comment}
