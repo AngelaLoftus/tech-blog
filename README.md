@@ -59,6 +59,7 @@
 
 ## Important Links
 * Link to Deployed Application on Heroku
+* [Tech Blog on Heroku]()
 * Link to Github Repository
 * [Tech Blog Repository](https://github.com/AngelaLoftus/tech-blog)
 
