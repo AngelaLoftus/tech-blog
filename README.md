@@ -64,8 +64,10 @@
 * [Tech Blog Repository](https://github.com/AngelaLoftus/tech-blog)
 
 ## Screenshots
-![image1!](link)
-![image2](link)
+![Dashboard](https://github.com/AngelaLoftus/tech-blog/blob/main/assets/images/dashboard-screenshot.jpg)
+![Homepage](https://github.com/AngelaLoftus/tech-blog/blob/main/assets/images/homepage-screenshot.jpg)
+![Login](https://github.com/AngelaLoftus/tech-blog/blob/main/assets/images/login-screenshot.jpg)
+
 
 ## Contact Me
 * Name: Angela Loftus
