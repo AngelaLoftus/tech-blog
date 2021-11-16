@@ -6,10 +6,11 @@ router.get('/', (req, res) => {
     console.log(req.session);
 
     Post.findAll({
-        attribtues: [
+        attributes: [
             'id',
             'post_url',
             'title',
+            'post_body',
             'created_at',
         ],
         include: [
@@ -57,6 +58,7 @@ router.get('/post/:id', (req,res) => {
             'id',
             'post_url',
             'title',
+            'post_body',
             'created_at'
         ],
         include: [

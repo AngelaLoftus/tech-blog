@@ -23,6 +23,13 @@ Post.init(
                 isURL: true
             }
         },
+        post_body: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+                len: [5]
+            }
+        },
         user_id: {
             type: DataTypes.INTEGER,
             references: {
