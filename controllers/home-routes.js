@@ -62,7 +62,7 @@ router.get('/post/:id', (req,res) => {
         include: [
             {
                 model: Comment,
-                attributes: ['id', 'comment_Text', 'post_id', 'created_at'],
+                attributes: ['id', 'comment_text', 'post_id', 'created_at'],
                 include: {
                     model: User,
                     attributes: ['username']
@@ -82,9 +82,10 @@ router.get('/post/:id', (req,res) => {
 
         const post = dbPostData.get({plain: true});
 
+        console.log("homeroutes singlepost", post)
         res.render('single-post', {
             post, 
-            loggedIn: req.session.loggedIn
+            loggedIn: true 
         });
     })
     .catch(err => {
@@ -95,3 +96,4 @@ router.get('/post/:id', (req,res) => {
 
 module.exports = router; 
 
+ 
