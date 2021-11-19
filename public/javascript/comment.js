@@ -20,6 +20,7 @@ async function commentFormHandler(event) {
         });
 
         if (response.ok) {
+            console.log("comment_text", comment_text);
             document.location.reload();
         } else {
             alert(response.statusText);
