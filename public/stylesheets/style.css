@@ -163,7 +163,10 @@
   .comment:nth-child(odd) {
     background-color: #fff5eb;
   }
-  
+  #postbody {
+    width:900px;
+    height: 300px;
+  }
   .comment .meta {
     font-size: 90%;
     margin-bottom: .5%;
@@ -171,13 +174,20 @@
   }
   
   .new-post-form input {
-    width: 300px;
+    width: auto;
+    height: auto;
+  }
+
+  input#post-body {
+    width: 900px;
+    height: 60px;
   }
   
   .edit-post-form {
     margin-bottom: 5%;
   }
-  
+
+
   footer {
     border-top: 1px solid #ccc;
     display: flex;
