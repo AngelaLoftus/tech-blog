@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: rgb(184, 195, 214)
   }
   
   body, html {
@@ -45,6 +46,7 @@
     padding: .5%;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: white;
   }
   
   textarea:focus, input:focus {
@@ -80,10 +82,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    background-color:rgb(101, 137, 190)
   }
   
   header h1 {
-    font-size: 1em;
+    font-size: 2em;
+    padding: 3mm;
+
+  }
+  nav {
+    font-size: 2em;
   }
   
   main {
@@ -120,6 +128,7 @@
   .post {
     margin-bottom: 2%;
     line-height: 150%;
+    font-weight: bold;
   }
   
   .post .title span {
@@ -175,4 +184,12 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+    background-color: rgb(101, 137, 190);
+    font-size: small;
+  }
+
+   
+  .comment {
+    background-color:rgb(135, 147, 165); 
+    font-size: large;
   }
