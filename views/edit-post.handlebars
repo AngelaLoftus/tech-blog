@@ -7,12 +7,11 @@
     <form class ="edit-post-form">
         <div> 
             <p>Edit Title: </p>
-            <input name = "post-title" type="text" value="{{post.title}}"/>
-            <span>({{format_url post.post_url}})</span>
+            <input name = "post-title" type="text" value='{{post.title}}'/>
         </div>
         <div>
             <p>Edit Post Body: </p>
-            <input name = "post-body" type= "text" value="{{post.post_body}}">
+            <input name = "post-body" type= "text" value='{{post.post_body}}'>
         </div>
         <div>
             <a href= "/post/{{post.id}}">{{post.Comments.length}} {{format_plural "comment" post.Comments.length}}</a>

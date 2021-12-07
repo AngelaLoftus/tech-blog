@@ -9,7 +9,6 @@ router.get('/', (req, res) => {
   Post.findAll({
     attributes: [
       'id',
-      'post_url',
       'title',
       'post_body',
       'created_at',
@@ -43,7 +42,6 @@ router.get('/:id', (req, res) => {
     },
     attributes: [
       'id',
-      'post_url',
       'title',
       'post_body',
       'created_at',
@@ -77,15 +75,15 @@ router.get('/:id', (req, res) => {
 });
 
 router.post('/', withAuth, (req, res) => {
-  // expects {title: 'Taskmaster goes public!', post_url: 'https://taskmaster.com/press', user_id: 1}
   console.log("POST", req.body.post_body);
   Post.create({
     title: req.body.title,
-    post_url: req.body.post_url,
     post_body: req.body.post_body,
-    user_id: req.session.user_id
+    user_id: req.session.user_id,
   })
-    .then(dbPostData => res.json(dbPostData))
+  .then(dbPostData => {
+    res.json(dbPostData);
+  console.log(req.body.post_body)})
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
