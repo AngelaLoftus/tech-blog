@@ -183,6 +183,11 @@
     height: 60px;
   }
   
+  input#edit-post-body {
+    width: 900px;
+    height: 60px;
+  }
+  
   .edit-post-form {
     margin-bottom: 5%;
   }
